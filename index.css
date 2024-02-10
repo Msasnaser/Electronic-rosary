@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.rosary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    gap:20px;
+    box-shadow: 1px 1px 10px rgba(36, 34, 34, 0.397);
+    background-color: #fff;
+    border-radius: 19px;
+    padding: 30px;
+    margin: 40px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+button{
+    --bs-focus-ring-color: rgba(var(--bs-tertiary-color-rgb), .25); 
+     width: 100px;
+    height: 50px;  
+     cursor: pointer;
+     transition: 0.5s;
+    
+}
+
+.reset {
+    
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+  }
